@@ -6,7 +6,6 @@ from django.conf.urls.static import static
 
 from posts.views_cal import calculator_query, calculator_body
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('posts/', include('posts.urls', namespace='posts')),
